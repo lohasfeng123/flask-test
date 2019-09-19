@@ -3,5 +3,7 @@ api_version: 1
 threadsafe: true
 
 handlers:
-- url: /.*
+- url: /
+  script: main.app
+- url: /test
   script: main.app
